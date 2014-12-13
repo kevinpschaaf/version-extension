@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Chrome Version",
+  "description": "Show the Chrome Version in a browser action icon",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "background": {
+    "persistent": false,
+    "scripts": ["eventPage.js"]
+  }
+}
